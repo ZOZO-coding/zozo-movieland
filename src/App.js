@@ -6,13 +6,13 @@ import SearchIcon from './search.svg';
 const API_URL = 'http://www.omdbapi.com?apikey=4558bea3';
 
 // dummy data
-const movie1 = {
-    "Title": "Batman",
-    "Year": "1989",
-    "imdbID": "tt0096895",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BZDNjOGNhN2UtNmNhMC00YjU4LWEzMmUtNzRkM2RjN2RiMjc5XkEyXkFqcGdeQXVyMTU0OTM5ODc1._V1_SX300.jpg"
-}
+// const movie1 = {
+//     "Title": "Batman",
+//     "Year": "1989",
+//     "imdbID": "tt0096895",
+//     "Type": "movie",
+//     "Poster": "https://m.media-amazon.com/images/M/MV5BZDNjOGNhN2UtNmNhMC00YjU4LWEzMmUtNzRkM2RjN2RiMjc5XkEyXkFqcGdeQXVyMTU0OTM5ODc1._V1_SX300.jpg"
+// }
 
 const App = () => {
     const [movies, setMovies] = useState([]);
